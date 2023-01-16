@@ -1,0 +1,2 @@
+### Prefered bash prompt customization
+PS1='\[\e[0m\]\u\[\e[0m\]@\[\e[0m\]\H \[\e[0;38;5;34m\]\s \[\e[0;1;38;5;196m\]\w \[\e[0;1;38;5;32m\][\[\e[0;1;38;5;32m\]$(git branch 2>/dev/null | grep '"'"'^*'"'"' | colrm 1 2)\[\e[0;1;38;5;32m\]]\n\[\e[0m\]% \[\e[0m\]'
