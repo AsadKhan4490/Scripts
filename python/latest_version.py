@@ -13,4 +13,10 @@ for package in packages:
     else:
         print(f"Could not fetch data for {package}")
 
+<<<<<<< HEAD
 ## this is branch 5
+        
+## this is branch 6
+=======
+## this is branch 5
+>>>>>>> b28037b (This is commit 0005 this will be merged)
